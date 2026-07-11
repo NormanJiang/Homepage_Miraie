@@ -1,17 +1,32 @@
-# Payroll Hours Dashboard
+# Miraie Homepage
 
-This site visualizes payslip data extracted from Outlook PDF attachments sent by `payrollak@onestaff.co.nz`.
+Static personal homepage for `norman-jiang.com`. The site is built with Vite and includes the Payroll dashboard as the `/payroll/` static route.
 
-The deployed site intentionally does not include raw payslip PDFs, IRD number, home address, or bank account details. It only embeds analytics fields such as hours, gross pay, PAYE tax, net pay, payment date, employer, and role.
+## Local development
 
-## Refresh Workflow
+```powershell
+$pnpm = "C:\\Users\\user\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\fallback\\pnpm.cmd"
+& $pnpm install
+& $pnpm --dir payroll-hours-dashboard build
+& $pnpm sync:payroll
+& $pnpm dev
+```
 
-1. Use Codex with Outlook Email access to search for new messages:
-   `from:payrollak@onestaff.co.nz received>=2026-06-01 hasattachment:true`
-2. Fetch any new PDF attachments into `work/payslips/`.
-3. Run:
-   `python scripts/extract_payslips.py`
-4. Copy `work/payslip-data.json` to `src/payslip-data.json`.
-5. Build, commit, save a Sites version, and deploy.
+Open the local URL printed by Vite. The Payroll card opens `/payroll/` in the production build.
 
-The `同步新工资单` button calls `/api/sync`. It is ready for a future Microsoft Graph/OAuth implementation, but this static deployment cannot directly reuse the Codex Outlook connector session.
+## Production build
+
+```powershell
+$pnpm = "C:\\Users\\user\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\fallback\\pnpm.cmd"
+& $pnpm --dir payroll-hours-dashboard build
+& $pnpm sync:payroll
+& $pnpm build
+```
+
+Deploy the root `dist` folder to GitHub Pages. The main site is at `/` and the Payroll dashboard is included at `/payroll/`. The repository includes a GitHub Actions workflow that builds and deploys it on every push to `main`.
+
+## Add a future page
+
+1. Add the new static project as a sibling folder.
+2. Add a sync script that copies its static build output into `public/<page-name>/`.
+3. Add a card to `src/main.js` that links to `./<page-name>/`.
