@@ -1,0 +1,2 @@
+terminal: npm run preview (automatically rebuilds Payroll and homepage)
+exit: ctrl+c

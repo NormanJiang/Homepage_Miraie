@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#071a33" />
+    <title>Snapshots</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" id="homeLink" href="../" aria-label="返回主页">norman<span>jiang</span></a>
+      <a class="back-link" id="backLink" href="../">返回主页 <span aria-hidden="true">←</span></a>
+    </header>
+
+    <main>
+      <section class="gallery-hero" aria-labelledby="galleryTitle">
+        <img id="heroImage" alt="" />
+        <div class="hero-shade"></div>
+        <div class="hero-copy">
+          <p class="eyebrow" id="heroEyebrow">PERSONAL GALLERY</p>
+          <h1 id="galleryTitle">Snapshots<br /><span>in between.</span></h1>
+          <p>Game worlds, work in progress, and the small scenes worth keeping.</p>
+        </div>
+        <p class="hero-count" id="heroCount"></p>
+      </section>
+
+      <nav class="collection-nav" id="collectionNav" aria-label="图集集合"></nav>
+
+      <section class="gallery-intro" aria-labelledby="collectionTitle">
+        <p class="eyebrow">THE COLLECTION</p>
+        <div>
+          <h2 id="collectionTitle">Small scenes,<br />kept close.</h2>
+          <p>Each numbered folder in <code>Photos</code> becomes its own collection when the site is built.</p>
+        </div>
+      </section>
+
+      <section class="photo-grid" id="photoGrid" aria-label="个人图集"></section>
+    </main>
+
+    <footer><a class="brand" id="footerHomeLink" href="../">norman<span>jiang</span></a><span id="footerLabel">Snapshots</span></footer>
+
+    <dialog class="lightbox" id="lightbox" aria-labelledby="lightboxCaption">
+      <button class="lightbox-close" type="button" aria-label="关闭图片">&times;</button>
+      <img id="lightboxImage" alt="" />
+      <p id="lightboxCaption"></p>
+    </dialog>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,528 @@
+{
+  "generated_at": "2026-07-10T04:51:00Z",
+  "payroll_sender": "payrollak@onestaff.co.nz",
+  "records": [
+    {
+      "source_file": "2026-06-01_2026-06-07.pdf",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-07",
+      "last_work_date": "2026-06-07",
+      "payment_date": "2026-06-11",
+      "employer": "Open Country Dairy",
+      "work_entries": [
+        {
+          "date": "2026-06-02",
+          "job": "Process & Production Worker",
+          "item": "Normal Hours",
+          "hours": 8.0,
+          "rate": 25.0,
+          "amount": 200.0
+        },
+        {
+          "date": "2026-06-03",
+          "job": "Process & Production Worker",
+          "item": "Normal Hours",
+          "hours": 9.0,
+          "rate": 25.0,
+          "amount": 225.0
+        },
+        {
+          "date": "2026-06-05",
+          "job": "Process & Production Worker",
+          "item": "Normal Hours",
+          "hours": 10.0,
+          "rate": 25.0,
+          "amount": 250.0
+        },
+        {
+          "date": "2026-06-06",
+          "job": "Process & Production Worker",
+          "item": "Normal Hours",
+          "hours": 9.0,
+          "rate": 25.0,
+          "amount": 225.0
+        }
+      ],
+      "total_hours": 36.0,
+      "gross_pay": 900.0,
+      "paye_tax": 151.53,
+      "net_pay": 748.47,
+      "effective_hourly_rate": 25.0,
+      "ytd_gross_pay": 900.0,
+      "ytd_paye_tax": 151.53,
+      "ytd_net_pay": 748.47,
+      "cumulative_hours": 36.0,
+      "cumulative_gross_pay": 900.0,
+      "cumulative_net_pay": 748.47,
+      "cumulative_paye_tax": 151.53
+    },
+    {
+      "source_file": "2026-06-08_2026-06-14.pdf",
+      "period_start": "2026-06-08",
+      "period_end": "2026-06-14",
+      "last_work_date": "2026-06-14",
+      "payment_date": "2026-06-18",
+      "employer": "Open Country Dairy",
+      "work_entries": [
+        {
+          "date": "2026-06-08",
+          "job": "Process & Production Worker",
+          "item": "Normal Hours",
+          "hours": 8.0,
+          "rate": 25.0,
+          "amount": 200.0
+        },
+        {
+          "date": "2026-06-10",
+          "job": "Process & Production Worker",
+          "item": "Normal Hours",
+          "hours": 8.5,
+          "rate": 25.0,
+          "amount": 212.5
+        },
+        {
+          "date": "2026-06-11",
+          "job": "Process & Production Worker",
+          "item": "Normal Hours",
+          "hours": 10.25,
+          "rate": 25.0,
+          "amount": 256.25
+        },
+        {
+          "date": "2026-06-12",
+          "job": "Process & Production Worker",
+          "item": "Normal Hours",
+          "hours": 9.75,
+          "rate": 25.0,
+          "amount": 243.75
+        },
+        {
+          "date": "2026-06-13",
+          "job": "Process & Production Worker",
+          "item": "Normal Hours",
+          "hours": 6.5,
+          "rate": 25.0,
+          "amount": 162.5
+        }
+      ],
+      "total_hours": 43.0,
+      "gross_pay": 1075.0,
+      "paye_tax": 190.84,
+      "net_pay": 884.16,
+      "effective_hourly_rate": 25.0,
+      "ytd_gross_pay": 1975.0,
+      "ytd_paye_tax": 342.37,
+      "ytd_net_pay": 1632.63,
+      "cumulative_hours": 79.0,
+      "cumulative_gross_pay": 1975.0,
+      "cumulative_net_pay": 1632.63,
+      "cumulative_paye_tax": 342.37
+    },
+    {
+      "source_file": "2026-06-15_2026-06-21.pdf",
+      "period_start": "2026-06-15",
+      "period_end": "2026-06-21",
+      "last_work_date": "2026-06-21",
+      "payment_date": "2026-06-25",
+      "employer": "Open Country Dairy",
+      "work_entries": [
+        {
+          "date": "2026-06-15",
+          "job": "Process & Production Worker",
+          "item": "Normal Hours",
+          "hours": 6.25,
+          "rate": 25.0,
+          "amount": 156.25
+        },
+        {
+          "date": "2026-06-17",
+          "job": "Process & Production Worker",
+          "item": "Normal Hours",
+          "hours": 11.25,
+          "rate": 25.0,
+          "amount": 281.25
+        },
+        {
+          "date": "2026-06-18",
+          "job": "Process & Production Worker",
+          "item": "Normal Hours",
+          "hours": 11.25,
+          "rate": 25.0,
+          "amount": 281.25
+        },
+        {
+          "date": "2026-06-19",
+          "job": "Process & Production Worker",
+          "item": "Normal Hours",
+          "hours": 8.0,
+          "rate": 25.0,
+          "amount": 200.0
+        }
+      ],
+      "total_hours": 36.75,
+      "gross_pay": 918.75,
+      "paye_tax": 155.12,
+      "net_pay": 763.63,
+      "effective_hourly_rate": 25.0,
+      "ytd_gross_pay": 2893.75,
+      "ytd_paye_tax": 497.49,
+      "ytd_net_pay": 2396.26,
+      "cumulative_hours": 115.75,
+      "cumulative_gross_pay": 2893.75,
+      "cumulative_net_pay": 2396.26,
+      "cumulative_paye_tax": 497.49
+    },
+    {
+      "source_file": "2026-06-22_2026-06-28.pdf",
+      "period_start": "2026-06-22",
+      "period_end": "2026-06-28",
+      "last_work_date": "2026-06-28",
+      "payment_date": "2026-07-02",
+      "employer": "Open Country Dairy",
+      "work_entries": [
+        {
+          "date": "2026-06-23",
+          "job": "Process & Production Worker",
+          "item": "Normal Hours",
+          "hours": 8.0,
+          "rate": 25.0,
+          "amount": 200.0
+        },
+        {
+          "date": "2026-06-24",
+          "job": "Process & Production Worker",
+          "item": "Normal Hours",
+          "hours": 8.5,
+          "rate": 25.0,
+          "amount": 212.5
+        },
+        {
+          "date": "2026-06-25",
+          "job": "Process & Production Worker",
+          "item": "Normal Hours",
+          "hours": 9.0,
+          "rate": 25.0,
+          "amount": 225.0
+        },
+        {
+          "date": "2026-06-26",
+          "job": "Process & Production Worker",
+          "item": "Normal Hours",
+          "hours": 7.0,
+          "rate": 25.0,
+          "amount": 175.0
+        }
+      ],
+      "total_hours": 32.5,
+      "gross_pay": 812.5,
+      "paye_tax": 134.75,
+      "net_pay": 677.75,
+      "effective_hourly_rate": 25.0,
+      "ytd_gross_pay": 3706.25,
+      "ytd_paye_tax": 632.24,
+      "ytd_net_pay": 3074.01,
+      "cumulative_hours": 148.25,
+      "cumulative_gross_pay": 3706.25,
+      "cumulative_net_pay": 3074.01,
+      "cumulative_paye_tax": 632.24
+    },
+    {
+      "source_file": "2026-06-29_2026-07-05.pdf",
+      "period_start": "2026-06-29",
+      "period_end": "2026-07-05",
+      "last_work_date": "2026-07-05",
+      "payment_date": "2026-07-09",
+      "employer": "Open Country Dairy",
+      "work_entries": [
+        {
+          "date": "2026-07-01",
+          "job": "Process & Production Worker",
+          "item": "Normal Hours",
+          "hours": 11.5,
+          "rate": 25.0,
+          "amount": 287.5
+        },
+        {
+          "date": "2026-07-02",
+          "job": "Process & Production Worker",
+          "item": "Normal Hours",
+          "hours": 7.5,
+          "rate": 25.0,
+          "amount": 187.5
+        },
+        {
+          "date": "2026-07-03",
+          "job": "Process & Production Worker",
+          "item": "Normal Hours",
+          "hours": 10.0,
+          "rate": 25.0,
+          "amount": 250.0
+        },
+        {
+          "date": "2026-07-04",
+          "job": "Process & Production Worker",
+          "item": "Normal Hours",
+          "hours": 9.0,
+          "rate": 25.0,
+          "amount": 225.0
+        }
+      ],
+      "total_hours": 38.0,
+      "gross_pay": 950.0,
+      "paye_tax": 161.11,
+      "net_pay": 788.89,
+      "effective_hourly_rate": 25.0,
+      "ytd_gross_pay": 4656.25,
+      "ytd_paye_tax": 793.35,
+      "ytd_net_pay": 3862.9,
+      "cumulative_hours": 186.25,
+      "cumulative_gross_pay": 4656.25,
+      "cumulative_net_pay": 3862.9,
+      "cumulative_paye_tax": 793.35
+    }
+  ],
+  "daily_entries": [
+    {
+      "date": "2026-06-02",
+      "job": "Process & Production Worker",
+      "item": "Normal Hours",
+      "hours": 8.0,
+      "rate": 25.0,
+      "amount": 200.0,
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-07",
+      "employer": "Open Country Dairy"
+    },
+    {
+      "date": "2026-06-03",
+      "job": "Process & Production Worker",
+      "item": "Normal Hours",
+      "hours": 9.0,
+      "rate": 25.0,
+      "amount": 225.0,
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-07",
+      "employer": "Open Country Dairy"
+    },
+    {
+      "date": "2026-06-05",
+      "job": "Process & Production Worker",
+      "item": "Normal Hours",
+      "hours": 10.0,
+      "rate": 25.0,
+      "amount": 250.0,
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-07",
+      "employer": "Open Country Dairy"
+    },
+    {
+      "date": "2026-06-06",
+      "job": "Process & Production Worker",
+      "item": "Normal Hours",
+      "hours": 9.0,
+      "rate": 25.0,
+      "amount": 225.0,
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-07",
+      "employer": "Open Country Dairy"
+    },
+    {
+      "date": "2026-06-08",
+      "job": "Process & Production Worker",
+      "item": "Normal Hours",
+      "hours": 8.0,
+      "rate": 25.0,
+      "amount": 200.0,
+      "period_start": "2026-06-08",
+      "period_end": "2026-06-14",
+      "employer": "Open Country Dairy"
+    },
+    {
+      "date": "2026-06-10",
+      "job": "Process & Production Worker",
+      "item": "Normal Hours",
+      "hours": 8.5,
+      "rate": 25.0,
+      "amount": 212.5,
+      "period_start": "2026-06-08",
+      "period_end": "2026-06-14",
+      "employer": "Open Country Dairy"
+    },
+    {
+      "date": "2026-06-11",
+      "job": "Process & Production Worker",
+      "item": "Normal Hours",
+      "hours": 10.25,
+      "rate": 25.0,
+      "amount": 256.25,
+      "period_start": "2026-06-08",
+      "period_end": "2026-06-14",
+      "employer": "Open Country Dairy"
+    },
+    {
+      "date": "2026-06-12",
+      "job": "Process & Production Worker",
+      "item": "Normal Hours",
+      "hours": 9.75,
+      "rate": 25.0,
+      "amount": 243.75,
+      "period_start": "2026-06-08",
+      "period_end": "2026-06-14",
+      "employer": "Open Country Dairy"
+    },
+    {
+      "date": "2026-06-13",
+      "job": "Process & Production Worker",
+      "item": "Normal Hours",
+      "hours": 6.5,
+      "rate": 25.0,
+      "amount": 162.5,
+      "period_start": "2026-06-08",
+      "period_end": "2026-06-14",
+      "employer": "Open Country Dairy"
+    },
+    {
+      "date": "2026-06-15",
+      "job": "Process & Production Worker",
+      "item": "Normal Hours",
+      "hours": 6.25,
+      "rate": 25.0,
+      "amount": 156.25,
+      "period_start": "2026-06-15",
+      "period_end": "2026-06-21",
+      "employer": "Open Country Dairy"
+    },
+    {
+      "date": "2026-06-17",
+      "job": "Process & Production Worker",
+      "item": "Normal Hours",
+      "hours": 11.25,
+      "rate": 25.0,
+      "amount": 281.25,
+      "period_start": "2026-06-15",
+      "period_end": "2026-06-21",
+      "employer": "Open Country Dairy"
+    },
+    {
+      "date": "2026-06-18",
+      "job": "Process & Production Worker",
+      "item": "Normal Hours",
+      "hours": 11.25,
+      "rate": 25.0,
+      "amount": 281.25,
+      "period_start": "2026-06-15",
+      "period_end": "2026-06-21",
+      "employer": "Open Country Dairy"
+    },
+    {
+      "date": "2026-06-19",
+      "job": "Process & Production Worker",
+      "item": "Normal Hours",
+      "hours": 8.0,
+      "rate": 25.0,
+      "amount": 200.0,
+      "period_start": "2026-06-15",
+      "period_end": "2026-06-21",
+      "employer": "Open Country Dairy"
+    },
+    {
+      "date": "2026-06-23",
+      "job": "Process & Production Worker",
+      "item": "Normal Hours",
+      "hours": 8.0,
+      "rate": 25.0,
+      "amount": 200.0,
+      "period_start": "2026-06-22",
+      "period_end": "2026-06-28",
+      "employer": "Open Country Dairy"
+    },
+    {
+      "date": "2026-06-24",
+      "job": "Process & Production Worker",
+      "item": "Normal Hours",
+      "hours": 8.5,
+      "rate": 25.0,
+      "amount": 212.5,
+      "period_start": "2026-06-22",
+      "period_end": "2026-06-28",
+      "employer": "Open Country Dairy"
+    },
+    {
+      "date": "2026-06-25",
+      "job": "Process & Production Worker",
+      "item": "Normal Hours",
+      "hours": 9.0,
+      "rate": 25.0,
+      "amount": 225.0,
+      "period_start": "2026-06-22",
+      "period_end": "2026-06-28",
+      "employer": "Open Country Dairy"
+    },
+    {
+      "date": "2026-06-26",
+      "job": "Process & Production Worker",
+      "item": "Normal Hours",
+      "hours": 7.0,
+      "rate": 25.0,
+      "amount": 175.0,
+      "period_start": "2026-06-22",
+      "period_end": "2026-06-28",
+      "employer": "Open Country Dairy"
+    },
+    {
+      "date": "2026-07-01",
+      "job": "Process & Production Worker",
+      "item": "Normal Hours",
+      "hours": 11.5,
+      "rate": 25.0,
+      "amount": 287.5,
+      "period_start": "2026-06-29",
+      "period_end": "2026-07-05",
+      "employer": "Open Country Dairy"
+    },
+    {
+      "date": "2026-07-02",
+      "job": "Process & Production Worker",
+      "item": "Normal Hours",
+      "hours": 7.5,
+      "rate": 25.0,
+      "amount": 187.5,
+      "period_start": "2026-06-29",
+      "period_end": "2026-07-05",
+      "employer": "Open Country Dairy"
+    },
+    {
+      "date": "2026-07-03",
+      "job": "Process & Production Worker",
+      "item": "Normal Hours",
+      "hours": 10.0,
+      "rate": 25.0,
+      "amount": 250.0,
+      "period_start": "2026-06-29",
+      "period_end": "2026-07-05",
+      "employer": "Open Country Dairy"
+    },
+    {
+      "date": "2026-07-04",
+      "job": "Process & Production Worker",
+      "item": "Normal Hours",
+      "hours": 9.0,
+      "rate": 25.0,
+      "amount": 225.0,
+      "period_start": "2026-06-29",
+      "period_end": "2026-07-05",
+      "employer": "Open Country Dairy"
+    }
+  ],
+  "totals": {
+    "weeks": 5,
+    "work_days": 21,
+    "hours": 186.25,
+    "gross_pay": 4656.25,
+    "net_pay": 3862.9,
+    "paye_tax": 793.35,
+    "average_hours_per_week": 37.25,
+    "average_net_per_week": 772.58,
+    "average_effective_hourly_rate": 25.0
+  }
+}

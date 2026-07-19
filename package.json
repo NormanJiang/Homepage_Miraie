@@ -1,0 +1,16 @@
+{
+  "name": "miraie-homepage",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/build.mjs && vite --host 127.0.0.1",
+    "build": "node scripts/build.mjs",
+    "preview": "vite preview --host 127.0.0.1",
+    "sync:payroll": "node scripts/sync-payroll.mjs",
+    "sync:token-usage": "node scripts/sync-token-usage.mjs"
+  },
+  "devDependencies": {
+    "vite": "^7.0.0"
+  }
+}

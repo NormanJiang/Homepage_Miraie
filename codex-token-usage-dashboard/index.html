@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Codex Token Usage Dashboard</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="brand" href="../">norman<span>jiang</span></a>
+        <a class="home-link" href="../">Home <span aria-hidden="true">↗</span></a>
+      </header>
+
+      <main>
+        <section class="hero">
+          <div class="hero-copy">
+            <p class="eyebrow">Windows Utility / Codex Usage</p>
+            <h1>Codex Token Usage Dashboard</h1>
+            <p>
+              A local Windows dashboard that reads ccusage offline data for Codex tokens, cache activity, costs, and intraday trends in 30-minute intervals.
+            </p>
+          </div>
+          <div class="app-mark" aria-hidden="true">
+            <img src="./assets/icon.png" alt="" />
+            <span>ccusage --offline --json</span>
+          </div>
+        </section>
+
+        <section class="dashboard-photo" aria-labelledby="dashboard-photo-title">
+          <div class="photo-copy">
+            <p class="eyebrow">DASHBOARD PANEL</p>
+            <h2 id="dashboard-photo-title">A focused local dashboard for everyday use.</h2>
+          </div>
+          <img src="./assets/dashboard-panel.svg" alt="Preview of the Codex Token Usage Dashboard" />
+        </section>
+
+        <section class="signal-row" aria-label="Feature overview">
+          <article>
+            <span>01</span>
+            <strong>Daily, weekly, and monthly views</strong>
+            <p>Aggregate tokens and costs by time range to understand overall usage at a glance.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <strong>Token mix</strong>
+            <p>Break down input, output, cache read, and cache creation to understand cost structure.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <strong>Intraday cumulative trends</strong>
+            <p>Inspect a single day in 30-minute intervals to identify high-usage periods.</p>
+          </article>
+        </section>
+
+        <section class="details">
+          <div>
+            <p class="eyebrow">PROJECT NOTES</p>
+            <h2>Turn local records into a readable usage dashboard.</h2>
+          </div>
+          <div class="detail-grid">
+            <article>
+              <h3>Data source</h3>
+              <p>The app calls the locally installed <code>ccusage.cmd</code> through pnpm and reads data with <code>--offline --json</code>, without an online query.</p>
+            </article>
+            <article>
+              <h3>Interface</h3>
+              <p>A WinForms desktop app with metric cards, trend charts, mix charts, and detailed tables for daily Codex work.</p>
+            </article>
+            <article>
+              <h3>Repository contents</h3>
+              <p>The homepage directory keeps the icon and decompiled source, ready to become a formal source project or release note later.</p>
+            </article>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
