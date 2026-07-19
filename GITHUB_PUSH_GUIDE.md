@@ -45,14 +45,33 @@ archive/homepage-before-source-migration
 
 ## 启用自动发布
 
-推送成功后：
+GitHub 不会因为仓库中存在 workflow 就自动把 Pages Source 改成 Actions。首次迁移必须手动切换一次：
 
-1. 打开 GitHub 仓库的 `Settings`。
-2. 进入 `Pages`。
-3. 在 `Build and deployment` 中将 Source 设为 `GitHub Actions`。
-4. 打开仓库的 `Actions` 页面，等待 `Deploy homepage` 完成。
+1. 打开 [Homepage_Miraie 的 Pages 设置](https://github.com/NormanJiang/Homepage_Miraie/settings/pages)。
+2. 找到 `Build and deployment`。
+3. 打开 `Source` 下拉菜单。
+4. 把 `Deploy from a branch` 改成 `GitHub Actions`。不要继续选择 `main` 分支。
+5. 打开 [Deploy homepage 工作流](https://github.com/NormanJiang/Homepage_Miraie/actions/workflows/deploy.yml)。
+6. 点击右侧 `Run workflow`，分支选择 `main`，再点击绿色的 `Run workflow`。
+7. 等待工作流显示绿色勾号后，再访问网站。
 
 成功后，自动部署会运行完整构建，并生成主页、Payroll、Codex Token Usage、Gallery 和 Writing 页面。
+
+## 白屏排查
+
+如果 `https://normanjiang.github.io/Homepage_Miraie/` 打开后是白色页面，检查 Pages 设置中的 Source。只要它仍显示 `Deploy from a branch` 和 `main`，GitHub 就是在直接发布 Vite 源码，而不是发布构建后的 `dist`，页面必然无法正常运行。
+
+切换到 `GitHub Actions` 并重新运行 `Deploy homepage` 后，白屏才会消失。
+
+## 恢复自定义域名
+
+Actions 部署正常后，在同一个 Pages 设置页面的 `Custom domain` 中输入：
+
+```text
+norman-jiang.com
+```
+
+点击 `Save`，等待 DNS 检查完成。当前域名返回 GitHub Pages 404，说明它尚未正确关联到这个仓库的 Pages 部署。Cloudflare 中原有 DNS 可以先保持不变；若 GitHub 的 DNS 检查失败，再检查 Cloudflare 记录。
 
 ## 以后更新网站
 
