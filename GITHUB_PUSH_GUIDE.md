@@ -3,10 +3,10 @@
 本地项目已经整理为一个 Git 仓库，默认分支为 `main`，并已连接到：
 
 ```text
-https://github.com/NormanJiang/NormanJiang.github.io.git
+https://github.com/NormanJiang/Homepage_Miraie.git
 ```
 
-原远程仓库是一套独立的 Astro 网站。它的历史已合并进当前仓库，原网站提交也保存在本地分支 `archive/github-site-before-migration`。因此后续可以使用普通 `git push`，不需要强制推送。
+原远程仓库保存的是之前直接上传的静态网站文件。它的历史已合并进当前源码仓库，迁移前的提交也保存在本地分支 `archive/homepage-before-source-migration`。因此后续可以使用普通 `git push`，不需要强制推送。
 
 ## 重要隐私提醒
 
@@ -22,7 +22,7 @@ https://github.com/NormanJiang/NormanJiang.github.io.git
 git push -u origin main
 ```
 
-这会把 `NormanJiang.github.io` 的 `main` 分支更新为当前网站，并触发 GitHub Actions。旧站历史不会被删除。
+这会把 `Homepage_Miraie` 的 `main` 分支更新为当前源码项目，并触发 GitHub Actions。旧站历史不会被删除。
 
 ## 检查远程连接
 
@@ -31,17 +31,17 @@ git remote -v
 git status
 ```
 
-应当看到远程地址为 `NormanJiang/NormanJiang.github.io`，当前分支为 `main`。
+应当看到远程地址为 `NormanJiang/Homepage_Miraie`，当前分支为 `main`。
 
 ## 恢复迁移前的旧网站
 
 迁移前的远程网站保存在：
 
 ```text
-archive/github-site-before-migration
+archive/homepage-before-source-migration
 ```
 
-如需恢复，请先联系 Codex检查差异。不要自行使用 `git push --force`。
+如需恢复，请先联系 Codex 检查差异。不要自行使用 `git push --force`。
 
 ## 启用自动发布
 
