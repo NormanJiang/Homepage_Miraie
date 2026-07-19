@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">Norman Jiang</title>
+  <desc id="desc">A geometric N mark in the site's navy, violet, and cyan palette.</desc>
+  <rect width="64" height="64" rx="14" fill="#0a2540"/>
+  <path d="M0 12 44 0h20v18L9 34 0 31Z" fill="#635bff"/>
+  <path d="M14 42 64 27v17L22 57Z" fill="#80e9ff"/>
+  <path d="M18 48V16h8l13 19V16h8v32h-8L26 29v19Z" fill="#ffffff"/>
+  <path d="M47 48h8v8h-8Z" fill="#ffb89c"/>
+</svg>
