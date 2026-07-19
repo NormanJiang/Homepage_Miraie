@@ -1,6 +1,12 @@
 # GitHub 上传与发布教程
 
-本地项目已经整理为一个 Git 仓库，默认分支为 `main`。日常修改后，只需要在项目根目录提交并推送。
+本地项目已经整理为一个 Git 仓库，默认分支为 `main`，并已连接到：
+
+```text
+https://github.com/NormanJiang/NormanJiang.github.io.git
+```
+
+原远程仓库是一套独立的 Astro 网站。它的历史已合并进当前仓库，原网站提交也保存在本地分支 `archive/github-site-before-migration`。因此后续可以使用普通 `git push`，不需要强制推送。
 
 ## 重要隐私提醒
 
@@ -8,28 +14,34 @@
 
 如果工资数据必须真正保密，请在上传前把仓库设为 Private，并且不要把敏感数据部署到公开 GitHub Pages；后续应改用 Cloudflare Access 或带服务端验证的方案。
 
-## 方法一：连接一个新的空仓库（推荐）
+## 首次上传当前网站
 
-1. 登录 GitHub，点击右上角 `+`，选择 `New repository`。
-2. 输入仓库名称，例如 `Homepage_Miraie`。
-3. 根据隐私需求选择 `Private` 或 `Public`。
-4. 不要勾选 README、`.gitignore` 或 License，创建空仓库。
-5. 复制仓库的 HTTPS 地址，例如：
-
-```text
-https://github.com/YOUR_NAME/Homepage_Miraie.git
-```
-
-6. 在此项目根目录打开 PowerShell，执行：
+在项目根目录打开 PowerShell，执行：
 
 ```powershell
-git remote add origin https://github.com/YOUR_NAME/Homepage_Miraie.git
 git push -u origin main
 ```
 
-## 方法二：替换现有的 GitHub Pages 仓库
+这会把 `NormanJiang.github.io` 的 `main` 分支更新为当前网站，并触发 GitHub Actions。旧站历史不会被删除。
 
-现有仓库已经有旧网页历史，不能直接当作空仓库推送。先在 GitHub 页面为旧版本创建一个备份分支，然后把仓库 HTTPS 地址发给 Codex，由 Codex 安全连接、检查并处理历史差异。不要自行使用 `git push --force`，否则可能覆盖无法恢复的提交。
+## 检查远程连接
+
+```powershell
+git remote -v
+git status
+```
+
+应当看到远程地址为 `NormanJiang/NormanJiang.github.io`，当前分支为 `main`。
+
+## 恢复迁移前的旧网站
+
+迁移前的远程网站保存在：
+
+```text
+archive/github-site-before-migration
+```
+
+如需恢复，请先联系 Codex检查差异。不要自行使用 `git push --force`。
 
 ## 启用自动发布
 
